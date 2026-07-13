@@ -1,0 +1,24 @@
+{
+  "Computer": {
+    "text": "O que deseja fazer?",
+    "options": [
+      {"text": "     Restaurar Sistema     ", "action": "deliver_item", "item": "drive", "points": 20},
+      {"text": "     Abrir chamado     ", "action": "deliver_item", "item": "glpi", "points": 20},
+      {"text": "     Deslogar     ", "action": "close"}
+    ]
+  },
+  "Cafeteira": {
+    "text": "O que deseja fazer?",
+    "options": [
+      {"text": "     Beber café     ", "action": "drink_coffee"},
+      {"text": "     Pegar café     ", "action": "get_item", "item": "cafe"},
+      {"text": "     Sair     ", "action": "close"}
+    ]
+  },
+  "CafeteiraVazia": {
+    "text": "A máquina está vazia... só resta o desespero...",
+    "options": [
+      {"text": "Não há nada a ser fazido...", "action": "close"}
+    ]
+  }
+}

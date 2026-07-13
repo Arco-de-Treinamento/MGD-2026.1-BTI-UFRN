@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://d08kfftwscfiu"]
+
+[ext_resource type="PackedScene" uid="uid://cnnofgsogx4l8" path="res://scenes/shared/Item.tscn" id="1_hvijx"]
+[ext_resource type="Script" uid="uid://bs162bw2a3h0k" path="res://scripts/cafeteira.gd" id="2_m5j8o"]
+[ext_resource type="Texture2D" uid="uid://cbdtqspb6cmfe" path="res://art/sprites/cafeteira.png" id="2_ybvfu"]
+[ext_resource type="AudioStream" uid="uid://crctxu5d2glxq" path="res://audio/sfx/handleCoins2.ogg" id="4_m5j8o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5j8o"]
+atlas = ExtResource("2_ybvfu")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vsjjt"]
+atlas = ExtResource("2_ybvfu")
+region = Rect2(64, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ikg1d"]
+atlas = ExtResource("2_ybvfu")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frmtk"]
+atlas = ExtResource("2_ybvfu")
+region = Rect2(16, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vocb8"]
+atlas = ExtResource("2_ybvfu")
+region = Rect2(32, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ipgym"]
+atlas = ExtResource("2_ybvfu")
+region = Rect2(48, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m360j"]
+atlas = ExtResource("2_ybvfu")
+region = Rect2(64, 0, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_scr2o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5j8o")
+}],
+"loop": 1,
+"name": &"empty",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vsjjt")
+}],
+"loop": 1,
+"name": &"full",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ikg1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frmtk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vocb8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ipgym")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m360j")
+}],
+"loop": 0,
+"name": &"get_coffee",
+"speed": 8.0
+}]
+
+[node name="Cafeteira" unique_id=900913301 instance=ExtResource("1_hvijx")]
+script = ExtResource("2_m5j8o")
+label = "Cafeteira"
+
+[node name="Key_E" parent="." index="1" unique_id=686396236]
+position = Vector2(0, -25)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." index="2" unique_id=729418294]
+position = Vector2(0, -8)
+sprite_frames = SubResource("SpriteFrames_scr2o")
+animation = &"empty"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." index="3" unique_id=1121987746]
+stream = ExtResource("4_m5j8o")
+max_distance = 100.0
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

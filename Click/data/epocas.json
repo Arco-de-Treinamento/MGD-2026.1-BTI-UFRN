@@ -1,0 +1,236 @@
+[
+  {
+    "nome": "dia",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "noite",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "tarde",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "manhã",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "madrugada",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "crepúsculo",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "amanhecer",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "entardecer",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "semana",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "mês",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "ano",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "década",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "século",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "milênio",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "estação",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "primavera",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "verão",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "outono",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "inverno",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "época",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "era",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "eternidade",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "infância",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "juventude",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "velhice",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "quaresma",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "advento",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "trimestre",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "semestre",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "bienal",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "período",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "momento",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "instante",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "antiguidade",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "renascimento",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "pré-história",
+    "artigo": "A",
+    "art_um": "Uma",
+    "naquele": "naquela"
+  },
+  {
+    "nome": "futuro",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "passado",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  },
+  {
+    "nome": "presente",
+    "artigo": "O",
+    "art_um": "Um",
+    "naquele": "naquele"
+  }
+]

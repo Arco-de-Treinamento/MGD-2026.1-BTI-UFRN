@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bjpog3d0vve1h"]
+
+[ext_resource type="Script" uid="uid://bqiq2be8t5d7t" path="res://src/itens/battery/battery.gd" id="1_ekbr0"]
+[ext_resource type="Texture2D" uid="uid://dkl20mwt86v5g" path="res://assets/textures/itens/piplha_pack.png" id="1_p5lds"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ekbr0"]
+size = Vector2(192.5, 588.8058)
+
+[node name="BatteryPack" type="Area2D" unique_id=761157506 groups=["battery"]]
+z_index = 5
+script = ExtResource("1_ekbr0")
+
+[node name="Body" type="Sprite2D" parent="." unique_id=1278687523]
+texture = ExtResource("1_p5lds")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=393876290]
+position = Vector2(-34, 2.9999995)
+rotation = 0.15276447
+shape = SubResource("RectangleShape2D_ekbr0")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

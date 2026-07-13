@@ -1,0 +1,19 @@
+{
+	"Estagiario": {
+		"text": "Boy da TI, meu computador nao liga.",
+		"options": [
+			{"text": "     Entregar café     ",    "action": "deliver_item", "item": "cafe",  "points": 10},
+			{"text": "     Ir formatar o PC     ", "action": "get_item",     "item": "drive"},
+			{"text": "     Sair     ",             "action": "close"}
+		]
+	},
+	"Suporte": {
+		"text": "Ei, o computador lá ta com tela preta de novo.",
+		"options": [
+			{"text": "     Entregar café     ",      "action": "deliver_item", "item": "cafe", "points": 10},
+			{"text": "     Ir formatar o PC     ",   "action": "get_item",     "item": "drive"},
+			{"text": "     Ir abrir chamado     ",   "action": "get_item",     "item": "gpli"},
+			{"text": "     Sair     ",               "action": "close"}
+		]
+	}
+}

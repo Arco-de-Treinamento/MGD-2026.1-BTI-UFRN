@@ -1,0 +1,112 @@
+[gd_scene format=3 uid="uid://drvkjikeusnlk"]
+
+[ext_resource type="Script" uid="uid://dak4d5wtxdurc" path="res://src/levels/main/main.gd" id="1_jyjjr"]
+[ext_resource type="PackedScene" uid="uid://c3ys2vrpeihjj" path="res://src/actors/remote/remote.tscn" id="4_0it5o"]
+[ext_resource type="Texture2D" uid="uid://cx7gqjpb34m7k" path="res://assets/textures/ui/frame.png" id="4_8riay"]
+[ext_resource type="PackedScene" uid="uid://b4xkamo6ngfau" path="res://src/itens/frame/FrameItem.tscn" id="5_8riay"]
+[ext_resource type="AudioStream" uid="uid://fkxsf50fhdiy" path="res://assets/sounds/frame_sucess.ogg" id="5_t8hnc"]
+[ext_resource type="Shader" uid="uid://dlir3ljycqxif" path="res://src/levels/main/backgroud_main.gdshader" id="5_w5caj"]
+[ext_resource type="PackedScene" uid="uid://bjpog3d0vve1h" path="res://src/itens/battery/battery.tscn" id="6_8riay"]
+[ext_resource type="AudioStream" uid="uid://cicb0paq0j81g" path="res://assets/sounds/frame_error.ogg" id="6_i4h2a"]
+[ext_resource type="AudioStream" uid="uid://mewtg8mdsauf" path="res://assets/sounds/level_up.ogg" id="7_vbxdo"]
+[ext_resource type="AudioStream" uid="uid://d3rtemno2rsyp" path="res://assets/sounds/flush_sfx.ogg" id="8_e0ova"]
+[ext_resource type="AudioStream" uid="uid://vm5uq8deu7t8" path="res://assets/sounds/time_tick.ogg" id="10_hhuc2"]
+[ext_resource type="Texture2D" uid="uid://be4uekj34q08n" path="res://assets/textures/ui/sucesso.png" id="11_sousi"]
+[ext_resource type="FontFile" uid="uid://jwso1vonp7wg" path="res://common/fonts/digital-7.ttf" id="14_i4h2a"]
+
+[sub_resource type="Environment" id="Environment_jyjjr"]
+glow_enabled = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8riay"]
+shader = ExtResource("5_w5caj")
+shader_parameter/bg_color_top = Color(0, 0.1, 0.3, 1)
+shader_parameter/bg_color_bottom = Color(0, 0.4, 0.6, 1)
+shader_parameter/wave_color_1 = Color(1, 1, 1, 0.8)
+shader_parameter/wave_color_2 = Color(0.5, 0.8, 1, 0.6)
+shader_parameter/speed = 1.0
+shader_parameter/wave_frequency = 2.5
+shader_parameter/wave_amplitude = 0.2
+shader_parameter/glow_intensity = 0.015
+
+[node name="Main" type="Node2D" unique_id=291787670]
+script = ExtResource("1_jyjjr")
+frame_scene = ExtResource("5_8riay")
+battery_scene = ExtResource("6_8riay")
+frame_sprite = ExtResource("4_8riay")
+img_gratification = ExtResource("11_sousi")
+sfx_success = ExtResource("5_t8hnc")
+sfx_error = ExtResource("6_i4h2a")
+sfx_level_up = ExtResource("7_vbxdo")
+sfx_flush = ExtResource("8_e0ova")
+sfx_tick = ExtResource("10_hhuc2")
+total_frames_to_win = 6
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=461338680]
+environment = SubResource("Environment_jyjjr")
+
+[node name="BackgroundLayer" type="CanvasLayer" parent="." unique_id=184609690]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="BackgroundLayer" unique_id=1782291743]
+material = SubResource("ShaderMaterial_8riay")
+custom_minimum_size = Vector2(1280, 720)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Timeline" type="Node2D" parent="." unique_id=434313317]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=852107164]
+
+[node name="HUDLayer" type="CanvasLayer" parent="." unique_id=2104422746]
+
+[node name="TimerLabel" type="Label" parent="HUDLayer" unique_id=386683214]
+offset_left = 8.0
+offset_top = 10.0
+offset_right = 205.0
+offset_bottom = 76.0
+theme_override_fonts/font = ExtResource("14_i4h2a")
+theme_override_font_sizes/font_size = 64
+text = "88 segs"
+
+[node name="TimelinesLabel" type="Label" parent="HUDLayer" unique_id=1638208228]
+offset_left = 10.0
+offset_top = 75.0
+offset_right = 182.0
+offset_bottom = 113.0
+theme_override_fonts/font = ExtResource("14_i4h2a")
+theme_override_font_sizes/font_size = 36
+text = "88 TIMELINES"
+
+[node name="BottomBar" type="HBoxContainer" parent="HUDLayer" unique_id=1231184306]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 14.0
+offset_top = -134.0
+offset_right = 676.0
+offset_bottom = -15.0
+grow_vertical = 0
+theme_override_constants/separation = 16
+
+[node name="RemoteAnchor" type="Control" parent="HUDLayer" unique_id=1773955132]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Remote" parent="HUDLayer/RemoteAnchor" unique_id=554429158 instance=ExtResource("4_0it5o")]
+z_index = 5
+position = Vector2(-236.00006, -61)
+rotation = 0.12740904
+scale = Vector2(0.74999994, 0.75000006)
+skew = 0.15707958

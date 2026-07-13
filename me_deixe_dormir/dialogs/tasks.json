@@ -1,0 +1,413 @@
+{
+  "tasks": [
+    {
+      "task": "Conserte o computador do estagiário",
+      "item": "drive",
+      "points": 45,
+      "stamina": 30,
+      "work": [
+        "estagiario"
+      ],
+      "dialog": [
+        {
+          "text": "Cara, tem como tu me ajudar com o meu computador?",
+          "options": [
+            {
+              "text": "O que aconteceu?",
+              "action": "next_text"
+            },
+            {
+              "text": "Mermão, de novo?!",
+              "action": "last_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Meu computador não está ligando...",
+          "options": [
+            {
+              "text": "Ok. Cadê a sua máquina?",
+              "action": "next_text"
+            },
+            {
+              "text": "Novidade...",
+              "action": "get_issue"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Você vai me ajudar?",
+          "options": [
+            {
+              "text": "Sim, vamos lá",
+              "action": "get_issue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Pegue café para o estagiário",
+      "item": "cafe",
+      "points": 10,
+      "stamina": 30,
+      "work": [
+        "estagiario",
+        "suporte",
+        "supervisor",
+        "diretor"
+      ],
+      "dialog": [
+        {
+          "text": "Estou com estafa... Poderia me dar um pouco de café?",
+          "options": [
+            {
+              "text": "Claro!",
+              "action": "get_issue"
+            },
+            {
+              "text": "Sério isso??",
+              "action": "last_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "É que não consigo mais andar...",
+          "options": [
+            {
+              "text": "Ok. Fazer o quê...",
+              "action": "get_issue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Recupere os documentos do estagiário",
+      "item": "drive",
+      "points": 30,
+      "stamina": 30,
+      "work": [
+        "estagiario",
+        "suporte"
+      ],
+      "dialog": [
+        {
+          "text": "Ehh... Eu perdi o relatório que deveria entregar hoje...",
+          "options": [
+            {
+              "text": "Dane-se?",
+              "action": "last_text"
+            },
+            {
+              "text": "Manda o chatGTI fazer.",
+              "action": "next_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "É que eu gastei todos os créditos fazendo um CRUD...",
+          "options": [
+            {
+              "text": "Usa os da Mico$oft...",
+              "action": "next_text"
+            },
+            {
+              "text": "Vou usar os meus",
+              "action": "get_issue"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Você vai me ajudar?",
+          "options": [
+            {
+              "text": "Fazer o que, né?",
+              "action": "get_issue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Reinicie o servidor de testes para o estagiário",
+      "item": "drive",
+      "points": 45,
+      "stamina": 40,
+      "work": [
+        "estagiario",
+        "suporte",
+        "supervisor"
+      ],
+      "dialog": [
+        {
+          "text": "Socorro! Subi um código e a empresa inteira caiu.",
+          "options": [
+            {
+              "text": "Você não testou antes?",
+              "action": "next_text"
+            },
+            {
+              "text": "Mano, você alterou a produção?!",
+              "action": "last_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Testar? Foi tudo por Vibecoding.",
+          "options": [
+            {
+              "text": "Reza ai pro copiloto então...",
+              "action": "next_text"
+            },
+            {
+              "text": "Me dá essa issue antes que o chefe veja.",
+              "action": "get_issue"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "... Limpa minha barra, por favor?",
+          "options": [
+            {
+              "text": "Beleza, vou dar reboot",
+              "action": "get_issue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Registre a folha de ponto do estagiário",
+      "item": "glpi",
+      "points": 15,
+      "stamina": 40,
+      "work": [
+        "estagiario",
+        "suporte",
+        "supervisor"
+      ],
+      "dialog": [
+        {
+          "text": "O RH disse que meu ponto acusou 14 horas de almoço ontem.",
+          "options": [
+            {
+              "text": "E você trabalhou quanto?",
+              "action": "next_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Trabalhei 15 minutos. O resto foi reunião no café. Ajusta aí?",
+          "options": [
+            {
+              "text": "Vou transferir meu turno pra você...",
+              "action": "get_issue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Feche os chamados fantasmas",
+      "item": "glpi",
+      "points": 25,
+      "stamina": 50,
+      "work": [
+        "suporte",
+        "supervisor"
+      ],
+      "dialog": [
+        {
+          "text": "Chefe! Abri sem querer 430 chamados de 'mouse lento'.",
+          "options": [
+            {
+              "text": "Quão burro você é?",
+              "action": "next_text"
+            },
+            {
+              "text": "Você tem algo contra mim?",
+              "action": "last_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Criei um loop 'while true' pra automatizar meu relatório...",
+          "options": [
+            {
+              "text": "Me passa o ID desse desastre.",
+              "action": "get_issue"
+            },
+            {
+              "text": "Vai ferrar o setor de suporte...",
+              "action": "last_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Se o Diretor descobrir, eu levo justa causa",
+          "options": [
+            {
+              "text": "Me dá o token do GLPI que eu limpo.",
+              "action": "get_issue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Assinar termo de horas extras falsas",
+      "item": "glpi",
+      "points": 25,
+      "stamina": 50,
+      "work": [
+        "suporte",
+        "supervisor"
+      ],
+      "dialog": [
+        {
+          "text": "Esqueci de bater o ponto na sexta porque fiquei jogando Tigrinho até tarde.",
+          "options": [
+            {
+              "text": "Não vou abonar isso.",
+              "action": "last_text"
+            },
+            {
+              "text": "Jogo do Bicho nunca fez isso...",
+              "action": "next_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Me ajuda, por favor! Eu divido o próximo prêmio com você",
+          "options": [
+            {
+              "text": "Traga um atestado que dou um jeito.",
+              "action": "get_issue"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Registre a folha de ponto do estagiário",
+      "item": "glpi",
+      "points": 15,
+      "stamina": 50,
+      "work": [
+        "suporte",
+        "supervisor"
+      ],
+      "dialog": [
+        {
+          "text": "O RH disse que meu ponto acusou 14 horas de almoço ontem.",
+          "options": [
+            {
+              "text": "E você trabalhou quanto?",
+              "action": "next_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Trabalhei 15 minutos. O resto foi reunião no café. Ajusta aí?",
+          "options": [
+            {
+              "text": "Vou transferir meu turno pra você...",
+              "action": "get_issue"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Recupere o projeto fantasma de inteligência artificial",
+      "item": "drive",
+      "points": 45,
+      "stamina": 70,
+      "work": [
+        "supervisor",
+        "diretor"
+      ],
+      "dialog": [
+        {
+          "text": "Diretor, o conselho quer ver o MVP daquela IA que você postou no Link&DinDim.",
+          "options": [
+            {
+              "text": "A equipe de desenvolvimento não tinha um backup?",
+              "action": "next_text"
+            },
+            {
+              "text": "Sair",
+              "action": "close"
+            }
+          ]
+        },
+        {
+          "text": "Sim, mas perderam o backup...",
+          "options": [
+            {
+              "text": "Engraçado como niguém sabe usar git",
+              "action": "get_issue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

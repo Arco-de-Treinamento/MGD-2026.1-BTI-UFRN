@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://cpy63wky1i1pv"]
+
+[ext_resource type="PackedScene" uid="uid://cnnofgsogx4l8" path="res://scenes/shared/Item.tscn" id="1_tmn4q"]
+[ext_resource type="Texture2D" uid="uid://cv0pt46tck72b" path="res://art/sprites/pc.png" id="2_g0yql"]
+[ext_resource type="Script" uid="uid://cutonqa3r1i35" path="res://scripts/computer.gd" id="2_g7f1o"]
+[ext_resource type="Texture2D" uid="uid://n8qvig1ribhs" path="res://art/sprites/atention.png" id="4_pv534"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pg7de"]
+atlas = ExtResource("4_pv534")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2p68x"]
+atlas = ExtResource("4_pv534")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kl0cj"]
+atlas = ExtResource("4_pv534")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78avh"]
+atlas = ExtResource("4_pv534")
+region = Rect2(24, 0, 8, 8)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8ixcc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pg7de")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2p68x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kl0cj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78avh")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]
+
+[node name="Computer" unique_id=900913301 instance=ExtResource("1_tmn4q")]
+texture = ExtResource("2_g0yql")
+script = ExtResource("2_g7f1o")
+label = "Computer"
+
+[node name="CollisionShape2D" parent="InteractionArea" parent_id_path=PackedInt32Array(1100828693) index="0" unique_id=462391335]
+scale = Vector2(1.1200005, 1)
+
+[node name="Key_E" parent="." index="1" unique_id=686396236]
+frame_progress = 0.35020944
+
+[node name="Atention" type="AnimatedSprite2D" parent="." index="2" unique_id=1183001354]
+visible = false
+position = Vector2(7, -13)
+sprite_frames = SubResource("SpriteFrames_8ixcc")
+frame_progress = 0.038652364

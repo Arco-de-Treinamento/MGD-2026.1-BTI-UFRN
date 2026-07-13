@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://b4xkamo6ngfau"]
+
+[ext_resource type="Script" uid="uid://bitsbbn8oycp4" path="res://src/itens/frame/FrameItem.gd" id="1_lw8f1"]
+[ext_resource type="Texture2D" uid="uid://cx7gqjpb34m7k" path="res://assets/textures/ui/frame.png" id="2_n5qen"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lw8f1"]
+bg_color = Color(0.4, 0.53333336, 0.8, 0.45882353)
+border_width_left = 36
+border_width_top = 36
+border_width_right = 36
+border_width_bottom = 36
+border_color = Color(0.8, 0.8, 0.8, 0.3529412)
+border_blend = true
+corner_radius_top_left = 96
+corner_radius_top_right = 96
+corner_radius_bottom_right = 96
+corner_radius_bottom_left = 96
+shadow_color = Color(0, 0.7490196, 1, 0.09803922)
+shadow_size = 60
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jqoa7"]
+size = Vector2(442, 228)
+
+[node name="FrameItem" type="Area2D" unique_id=2069797193]
+script = ExtResource("1_lw8f1")
+
+[node name="Body" type="Sprite2D" parent="." unique_id=842419435]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_n5qen")
+
+[node name="Ballon" type="PanelContainer" parent="Body" unique_id=940287268]
+visible = false
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -2201.0
+offset_top = -1065.0
+offset_right = 1099.0
+offset_bottom = -646.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_lw8f1")
+
+[node name="MarginContainer" type="MarginContainer" parent="Body/Ballon" unique_id=419714951]
+layout_mode = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="Label" type="Label" parent="Body/Ballon/MarginContainer" unique_id=769646417]
+custom_minimum_size = Vector2(3200, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 116
+text = "O dia começou até que bem bonito para um inferno como aquele."
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="RightCircle" type="Panel" parent="Body" unique_id=697862941]
+offset_left = 472.5
+offset_top = -80.0
+offset_right = 632.5
+offset_bottom = 80.0
+
+[node name="LeftCircle" type="Panel" parent="Body" unique_id=2075011093]
+offset_left = -632.5
+offset_top = -80.0
+offset_right = -472.5
+offset_bottom = 80.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=211617786]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_jqoa7")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

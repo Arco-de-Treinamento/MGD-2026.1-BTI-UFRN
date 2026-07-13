@@ -1,0 +1,974 @@
+[
+  {
+	"nome": "bola",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "chutando",
+	  "lançando",
+	  "quicando",
+      "furando"
+	]
+  },
+  {
+	"nome": "carro",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "dirigindo",
+	  "estacionando",
+	  "lavando",
+      "acelerando"
+	]
+  },
+  {
+	"nome": "espanador",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "espanando",
+	  "limpando",
+      "sacudindo"
+	]
+  },
+  {
+	"nome": "mesa",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "limpando",
+	  "montando",
+	  "arrastando",
+      "forrando"
+	]
+  },
+  {
+	"nome": "computador",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "formatando",
+	  "digitando",
+	  "ligando",
+      "reiniciando"
+	]
+  },
+  {
+	"nome": "cadeira",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "sentando",
+	  "arrastando",
+	  "balançando",
+      "estofando"
+	]
+  },
+  {
+	"nome": "celular",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "carregando",
+	  "desbloqueando",
+	  "navegando",
+      "filmando"
+	]
+  },
+  {
+	"nome": "caneta",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "escrevendo",
+	  "desenhando",
+	  "rabiscando",
+      "tampando"
+	]
+  },
+  {
+	"nome": "livro",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "lendo",
+	  "folheando",
+	  "estudando",
+      "escrevendo"
+	]
+  },
+  {
+	"nome": "mochila",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "carregando",
+	  "esvaziando",
+	  "abrindo",
+      "remendando"
+	]
+  },
+  {
+	"nome": "relógio",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "ajustando",
+	  "olhando",
+	  "atrasando",
+      "consertando"
+	]
+  },
+  {
+	"nome": "garrafa",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "enchendo",
+	  "esvaziando",
+	  "gelando",
+      "abrindo"
+	]
+  },
+  {
+	"nome": "óculos",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "limpando",
+	  "ajustando",
+	  "embaçando",
+      "usando"
+	]
+  },
+  {
+	"nome": "chave",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "girando",
+	  "trancando",
+	  "abrindo",
+      "perdendo"
+	]
+  },
+  {
+	"nome": "martelo",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "martelando",
+	  "pregando",
+	  "quebrando",
+      "golpeando"
+	]
+  },
+  {
+	"nome": "janela",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "abrindo",
+	  "fechando",
+	  "espiando",
+      "limpando"
+	]
+  },
+  {
+	"nome": "espelho",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "olhando",
+	  "limpando",
+	  "refletindo",
+      "quebrando"
+	]
+  },
+  {
+	"nome": "escada",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "subindo",
+	  "descendo",
+	  "apoiando",
+      "pintando"
+	]
+  },
+  {
+	"nome": "quadro",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "pendurando",
+	  "admirando",
+	  "pintando",
+      "limpando"
+	]
+  },
+  {
+	"nome": "lâmpada",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "trocando",
+	  "acendendo",
+	  "apagando",
+      "rosqueando"
+	]
+  },
+  {
+	"nome": "sofá",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "sentando",
+	  "deitando",
+	  "limpando",
+      "forrando"
+	]
+  },
+  {
+	"nome": "xícara",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "enchendo",
+	  "bebendo",
+	  "lavando",
+      "aquecendo"
+	]
+  },
+  {
+	"nome": "prato",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "lavando",
+	  "secando",
+	  "quebrando",
+      "servindo"
+	]
+  },
+  {
+	"nome": "faca",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "cortando",
+	  "afiando",
+	  "picando",
+      "fatiando"
+	]
+  },
+  {
+	"nome": "garfo",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "espetando",
+	  "comendo",
+      "lavando"
+	]
+  },
+  {
+	"nome": "colher",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "mexendo",
+	  "provando",
+	  "servindo",
+      "lavando"
+	]
+  },
+  {
+	"nome": "travesseiro",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "afofando",
+	  "deitando",
+	  "abraçando",
+      "trocando"
+	]
+  },
+  {
+	"nome": "cama",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "arrumando",
+	  "deitando",
+	  "pulando",
+      "desforrando"
+	]
+  },
+  {
+	"nome": "violão",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "tocando",
+	  "afinando",
+	  "dedilhando",
+      "guardando"
+	]
+  },
+  {
+	"nome": "guitarra",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "plugando",
+	  "tocando",
+	  "solando",
+      "afinando"
+	]
+  },
+  {
+	"nome": "piano",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "tocando",
+	  "afinando",
+	  "estudando",
+      "abrindo"
+	]
+  },
+  {
+	"nome": "televisão",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "assistindo",
+	  "ligando",
+	  "sintonizando",
+      "limpando"
+	]
+  },
+  {
+	"nome": "rádio",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "ouvindo",
+	  "sintonizando",
+	  "aumentando",
+      "ligando"
+	]
+  },
+  {
+	"nome": "porta",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "abrindo",
+	  "fechando",
+	  "trancando",
+      "batendo"
+	]
+  },
+  {
+	"nome": "tapete",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "aspirando",
+	  "sacudindo",
+	  "estendendo",
+      "lavando"
+	]
+  },
+  {
+	"nome": "cortina",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "abrindo",
+	  "fechando",
+	  "lavando",
+      "puxando"
+	]
+  },
+  {
+	"nome": "ventilador",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "ligando",
+	  "limpando",
+	  "girando",
+      "consertando"
+	]
+  },
+  {
+	"nome": "bicicleta",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "pedalando",
+	  "calibrando",
+	  "lavando",
+      "correndo"
+	]
+  },
+  {
+	"nome": "capacete",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "usando",
+	  "travando",
+	  "limpando",
+      "ajustando"
+	]
+  },
+  {
+	"nome": "estante",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "organizando",
+	  "limpando",
+      "montando"
+	]
+  },
+  {
+	"nome": "pincel",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "pintando",
+	  "molhando",
+	  "lavando",
+      "espalhando"
+	]
+  },
+  {
+	"nome": "maleta",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "carregando",
+	  "abrindo",
+	  "guardando",
+      "trancando"
+	]
+  },
+  {
+	"nome": "guarda-chuva",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "abrindo",
+	  "secando",
+	  "segurando",
+      "fechando"
+	]
+  },
+  {
+	"nome": "lanterna",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "iluminando",
+	  "clareando",
+	  "focando",
+      "ligando"
+	]
+  },
+  {
+	"nome": "isqueiro",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "acendendo",
+	  "riscando",
+      "enchendo"
+	]
+  },
+  {
+	"nome": "caixa",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "abrindo",
+	  "fechando",
+	  "empilhando",
+      "carregando"
+	]
+  },
+  {
+	"nome": "balde",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "enchendo",
+	  "esvaziando",
+	  "lavando",
+      "carregando"
+	]
+  },
+  {
+	"nome": "vassoura",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "varrendo",
+	  "limpando",
+      "apoiando"
+	]
+  },
+  {
+	"nome": "alicate",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "apertando",
+	  "cortando",
+	  "puxando",
+      "dobrando"
+	]
+  },
+  {
+	"nome": "furadeira",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "furando",
+	  "parafusando",
+	  "perfurando",
+      "ligando"
+	]
+  },
+  {
+	"nome": "parafuso",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "apertando",
+	  "rosqueando",
+	  "soltando",
+      "fixando"
+	]
+  },
+  {
+	"nome": "porca",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "rosqueando",
+	  "apertando",
+      "travando"
+	]
+  },
+  {
+	"nome": "serrote",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "serrando",
+	  "cortando",
+      "afiando"
+	]
+  },
+  {
+	"nome": "tesoura",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "cortando",
+	  "aparando",
+      "picotando"
+	]
+  },
+  {
+	"nome": "caderno",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "escrevendo",
+	  "folheando",
+	  "estudando",
+      "rasgando"
+	]
+  },
+  {
+	"nome": "borracha",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "apagando",
+	  "limpando",
+      "esfregando"
+	]
+  },
+  {
+	"nome": "lápis",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "escrevendo",
+	  "desenhando",
+	  "apontando",
+      "rabiscando"
+	]
+  },
+  {
+	"nome": "régua",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "medindo",
+	  "traçando",
+      "alinhando"
+	]
+  },
+  {
+	"nome": "grampeador",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "grampeando",
+	  "prendendo",
+      "recarregando"
+	]
+  },
+  {
+	"nome": "calculadora",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "calculando",
+	  "somando",
+	  "digitando",
+      "conferindo"
+	]
+  },
+  {
+	"nome": "tablet",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "navegando",
+	  "lendo",
+	  "jogando",
+      "desenhando"
+	]
+  },
+  {
+	"nome": "câmera",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "focando",
+	  "fotografando",
+	  "filmando",
+      "ajustando"
+	]
+  },
+  {
+	"nome": "microfone",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "gravando",
+	  "falando",
+	  "cantando",
+      "testando"
+	]
+  },
+  {
+	"nome": "fone de ouvido",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "ouvindo",
+	  "escutando",
+	  "conectando",
+      "enrolando"
+	]
+  },
+  {
+	"nome": "impressora",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "imprimindo",
+	  "escanendo",
+	  "copiando",
+      "carregando"
+	]
+  },
+  {
+	"nome": "mouse",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "clicando",
+	  "arrastando",
+	  "navegando",
+      "rolando"
+	]
+  },
+  {
+	"nome": "teclado",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "digitando",
+	  "escrevendo",
+      "limpando"
+	]
+  },
+  {
+	"nome": "monitor",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "olhando",
+	  "limpando",
+	  "ajustando",
+      "ligando"
+	]
+  },
+  {
+	"nome": "gaveta",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "abrindo",
+	  "fechando",
+	  "organizando",
+      "esvaziando"
+	]
+  },
+  {
+	"nome": "armário",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "arrumando",
+	  "limpando",
+	  "guardando",
+      "trancando"
+	]
+  },
+  {
+	"nome": "pente",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "penteando",
+	  "desembaraçando",
+      "limpando"
+	]
+  },
+  {
+	"nome": "escova",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "escovando",
+	  "limpando",
+      "lustrando"
+	]
+  },
+  {
+	"nome": "toalha",
+	"artigo": "a",
+	"pronome": "sua",
+	"prep_do": "da",
+	"art_um": "uma",
+	"verbo_gerundio": [
+	  "enxugando",
+	  "secando",
+	  "estendendo",
+      "dobrando"
+	]
+  },
+  {
+	"nome": "sabonete",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "ensaboando",
+	  "lavando",
+      "perfumando"
+	]
+  },
+  {
+	"nome": "secador",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "secando",
+	  "soprando",
+	  "escovando",
+      "ligando"
+	]
+  },
+  {
+	"nome": "perfume",
+	"artigo": "o",
+	"pronome": "seu",
+	"prep_do": "do",
+	"art_um": "um",
+	"verbo_gerundio": [
+	  "borrifando",
+	  "cheirando",
+      "perfumando"
+	]
+  }
+]

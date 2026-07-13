@@ -1,0 +1,14 @@
+{
+	"Intro": {
+		"text": "Droga... \nJá não basta ser mal pago, ainda tenho que fazer favores e hora extra. Queria ter a carga horária do meu chefe...",
+		"options": [
+			{"text": "     Continuar     ",             "action": "close"}
+		]
+	},
+	"Move": {
+		"text": "Use as setas ⬅ ⮕ para se mover e espaço ⎵ para pular. \nConverse com os NPCs para ganhar pontos de confiança e subir de cargo!",
+		"options": [
+			{"text": "     Continuar     ",             "action": "close"}
+		]
+	}
+}

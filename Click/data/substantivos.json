@@ -1,0 +1,497 @@
+[
+  {
+    "nome": "paciência",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "explosão",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "tragédia",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "calma",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "surpresa",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "alegria",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "tristeza",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "coragem",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "medo",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "esperança",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "desespero",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "caos",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "ordem",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "destino",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "sorte",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "azar",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "mistério",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "silêncio",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "ruído",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "liberdade",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "justiça",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "verdade",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "mentira",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "vontade",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "memória",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "esquecimento",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "tempo",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "espaço",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "energia",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "força",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "beleza",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "horror",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "paixão",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "ódio",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "orgulho",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "inveja",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "ganância",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "luxo",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "pobreza",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "riqueza",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "vitória",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "derrota",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "conquista",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "fracasso",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "glória",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "traição",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "lealdade",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "amizade",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "solidão",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "multidão",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "natureza",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "universo",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "conhecimento",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "sabedoria",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "ignorância",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "dúvida",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "certeza",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "fé",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "razão",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "loucura",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "equilíbrio",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "abismo",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "horizonte",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "tempestade",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "brisa",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "chama",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "sombra",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "reflexo",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "eco",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "ritmo",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "melodia",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "harmonia",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "conflito",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "paz",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "guerra",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "revolução",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "mudança",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "rotina",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "aventura",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "viagem",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "chegada",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "partida",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "saudade",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "presença",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "ausência",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "perfeição",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "defeito",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "talento",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "esforço",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "descanso",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "trabalho",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "lazer",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "sonho",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "pesadelo",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "realidade",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "ilusão",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "fantasia",
+    "genero": "f",
+    "art_um": "uma"
+  },
+  {
+    "nome": "veneno",
+    "genero": "m",
+    "art_um": "um"
+  },
+  {
+    "nome": "cura",
+    "genero": "f",
+    "art_um": "uma"
+  }
+]

@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://cefqfma7rveci"]
+
+[ext_resource type="Script" uid="uid://bv1bjhgavs5gk" path="res://scripts/main_menu.gd" id="1_fkd6t"]
+[ext_resource type="Theme" uid="uid://d1df6yqmeobjy" path="res://resources/custom_font_theme.tres" id="1_fsby3"]
+[ext_resource type="Shader" uid="uid://dxyumccroqq8o" path="res://scenes/levels/main_menu.gdshader" id="2_keln3"]
+[ext_resource type="Texture2D" uid="uid://cclgwl5uuha62" path="res://art/sprites/cracha_ui.png" id="2_leamy"]
+[ext_resource type="FontFile" uid="uid://ss5vq60dfpvo" path="res://resources/boldpixels.ttf" id="3_721jg"]
+[ext_resource type="StyleBox" uid="uid://doxqp50sapinx" path="res://resources/custom_hover_style_box_flat.tres" id="4_geflf"]
+[ext_resource type="AudioStream" uid="uid://7qokef34obwh" path="res://audio/sfx/select_option_dialog.ogg" id="7_crctu"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fkd6t"]
+shader = ExtResource("2_keln3")
+shader_parameter/color_top = Color(0.3, 0.3, 0.3, 1)
+shader_parameter/color_bottom = Color(0.1, 0.1, 0.1, 1)
+shader_parameter/steps = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_geflf"]
+bg_color = Color(0.72156864, 0.70980394, 0.7254902, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0, 0, 0, 1)
+expand_margin_left = 16.0
+expand_margin_top = 4.0
+expand_margin_right = 16.0
+expand_margin_bottom = 4.0
+
+[node name="MainMenu" type="Control" unique_id=398104041]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fkd6t")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=304393203]
+material = SubResource("ShaderMaterial_fkd6t")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.39215687, 0.3882353, 0.39607844, 1)
+
+[node name="Label" type="Label" parent="." unique_id=312441663]
+layout_mode = 0
+offset_left = 374.0
+offset_top = 530.0
+offset_right = 892.0
+offset_bottom = 594.0
+theme = ExtResource("1_fsby3")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 72
+text = "Me Deixe Dormir!"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2128536217]
+position = Vector2(626, 234)
+scale = Vector2(8, 8)
+texture = ExtResource("2_leamy")
+
+[node name="Exit" type="Button" parent="." unique_id=1135641391]
+layout_mode = 0
+offset_left = 561.0
+offset_top = 394.0
+offset_right = 687.0
+offset_bottom = 436.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_721jg")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_geflf")
+theme_override_styles/pressed = ExtResource("4_geflf")
+theme_override_styles/hover = ExtResource("4_geflf")
+text = "SAIR"
+
+[node name="Start" type="Button" parent="." unique_id=1021891492]
+layout_mode = 0
+offset_left = 561.0
+offset_top = 330.0
+offset_right = 687.0
+offset_bottom = 372.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_721jg")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_geflf")
+theme_override_styles/pressed = ExtResource("4_geflf")
+theme_override_styles/hover = ExtResource("4_geflf")
+text = "INICIAR"
+
+[node name="HoverSound" type="AudioStreamPlayer" parent="." unique_id=900749161]
+stream = ExtResource("7_crctu")
+volume_db = -10.0

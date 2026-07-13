@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://2he56q21651d"]
+
+[ext_resource type="Script" uid="uid://cqorj8jvuoc1o" path="res://src/levels/credits/credits.gd" id="1_p6p5l"]
+[ext_resource type="Texture2D" uid="uid://b6dwvubnyr0c6" path="res://assets/textures/ui/logo.png" id="2_jrywr"]
+[ext_resource type="AudioStream" uid="uid://bxg814prjmkkd" path="res://assets/sounds/angel_choir.mp3" id="3_1yccw"]
+
+[node name="Credits" type="Control" unique_id=404652870]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_p6p5l")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1295588884]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0011736336, 0.0011736335, 0.0011736334, 1)
+
+[node name="Control" type="VBoxContainer" parent="." unique_id=1679493686]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -400.0
+offset_right = 400.0
+offset_bottom = 50.0
+grow_horizontal = 2
+
+[node name="Titulo" type="Label" parent="Control" unique_id=1043344401]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+horizontal_alignment = 1
+
+[node name="Historia" type="Label" parent="Control" unique_id=1569329646]
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Logo" type="TextureRect" parent="Control" unique_id=1117593028]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("2_jrywr")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=282447282]
+stream = ExtResource("3_1yccw")
+volume_db = -25.0
